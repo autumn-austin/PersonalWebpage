@@ -1,7 +1,12 @@
-body {
-    background-color: darkolivegreen;
+html {
+    background:
+        linear-gradient(to bottom, rgba(134, 100, 4, 0.435), rgba(118, 54, 5, 0.489)),
+        url('./images/pexels-los-muertos-crew-6836429.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 
 h1,
 h2 {
@@ -31,6 +36,7 @@ h2 {
 }
 
 .about-info p {
+    text-shadow: 2px 1px black;
     color: blanchedalmond;
 }
 
@@ -38,6 +44,22 @@ h2 {
     text-align: left;
     color: darkgoldenrod;
     text-shadow: 1px 1px black;
+}
+
+.pros_cons {
+    text-align: center;
+    border: 3px ridge darkgoldenrod;
+    color: blanchedalmond;
+    text-shadow: 2px 1px black;
+}
+
+.pros_cons h2 {
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+.pros_cons li {
+    text-align: left;
 }
 
 footer {
