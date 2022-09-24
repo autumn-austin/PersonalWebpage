@@ -9,15 +9,32 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: darkgoldenrod;
     display: flex;
     justify-content: center;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 1px black;
 }
+
+a,
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
 
 #aussie-photos {
     border: 5px ridge darkgoldenrod;
+    border-radius: 5px;
     margin: auto;
     display: block;
     justify-content: center;
@@ -27,6 +44,9 @@ h2 {
     text-align: center;
     border: 3px ridge darkgoldenrod;
     margin: auto;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .about-info h2 {
@@ -51,20 +71,38 @@ h2 {
     border: 3px ridge darkgoldenrod;
     color: blanchedalmond;
     text-shadow: 2px 1px black;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .pros_cons h2 {
     text-decoration: underline;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 1px black;
 }
 
 .pros_cons li {
     text-align: left;
 }
 
-footer {
+#dog-photos {
+    border: 5px ridge darkgoldenrod;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+
+.dog-about-info {
     text-align: center;
+    border: 3px ridge darkgoldenrod;
     color: blanchedalmond;
+    text-shadow: 2px 1px black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* Dropdown Button */
@@ -113,4 +151,9 @@ footer {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: darkolivegreen;
+}
+
+footer {
+    text-align: center;
+    color: blanchedalmond;
 }
