@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+p,
+form {
+    text-align: center;
+
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+#form-text {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-inline-start: 5px;
+    align-items: center;
+}
