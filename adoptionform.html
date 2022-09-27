@@ -13,6 +13,7 @@
     <h1>Adoption Application</h1>
     <h2>Please fill out to the best of your ability!</h2>
     <form>
+
         <label for="dog" class="required" id="form-text">Name of Dog you are interested in:</label><br>
         <input type="text" id="dog" name="dog"><br>
 
@@ -32,7 +33,7 @@
         <input type="text" id="phone" name="phone" required><br>
 
         <label for="email" id="form-text">Best e-mail to reach you:</label><br>
-        <input type="text" id="email" name="email"><br>
+        <input type="email" id="email" name="email"><br>
 
         <label for="employer" class="required" id="form-text">Employer Name:</label><br>
         <input type="text" id="employer" name="employer"><br>
@@ -41,21 +42,25 @@
         <label for="employer" id="form-text">Employer Address:</label><br>
         <input type="text" id="employer" name="employer"><br>
 
-        <label for="status" class="required" id="form-text">Are you Full-Time or Part-Time?</label><br>
-        <input type="radio" id="status" name="status" value="Full-Time">
-        <label for="status">Full-Time</label><br>
-        <input type="radio" id="status" name="status" value="Part-Time">
-        <label for="status">Part-Time</label><br>
+        <div class="input-group">
+            <label for="status" class="required" id="form-text">Are you Full-Time or Part-Time?</label><br>
+            <input type="radio" id="status" name="status" value="Full-Time">
+            <label for="status">Full-Time</label><br>
+            <input type="radio" id="status" name="status" value="Part-Time">
+            <label for="status">Part-Time</label><br>
+        </div>
 
         <h2>Household Information</h2>
-        <label for="agreement" id="form-text" id="form-text">Are all members in agreement with this
-            adoption?</label><br>
-        <input type="radio" id="agreement" name="agreement" value="YES">
-        <label for="agreement">YES</label><br>
-        <input type="radio" id="agreement" name="agreement" value="NO">
-        <label for="agreement">NO</label><br>
-        <input type="radio" id="agreement" name="agreement" value="NOT-SURE">
-        <label for="agreement">NOT SURE</label><br>
+        <div class="input-group">
+            <label for="agreement" id="form-text" id="form-text">Are all members in agreement with this
+                adoption?</label><br>
+            <input type="radio" id="agreement" name="agreement" value="YES">
+            <label for="agreement">YES</label><br>
+            <input type="radio" id="agreement" name="agreement" value="NO">
+            <label for="agreement">NO</label><br>
+            <input type="radio" id="agreement" name="agreement" value="NOT-SURE">
+            <label for="agreement">NOT SURE</label><br>
+        </div>
 
         <label for="caregiver" class="requried" id="form-text">Who will be the primary caregiver?</label><br>
         <input type="text" id="caregiver" name="caregiver"><br>
