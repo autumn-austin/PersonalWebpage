@@ -24,9 +24,17 @@ body {
 }
 
 #form-text {
+    text-align: center;
+    justify-items: center;
     color: blanchedalmond;
     text-shadow: 2px 1px black;
     font-weight: bold;
+}
+
+input {
+    background-color: rgba(250, 249, 246, 0.355);
+    padding-top: 5px;
+    margin-top: 8px;
 }
 
 .input-group {

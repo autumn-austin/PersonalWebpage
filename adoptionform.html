@@ -10,39 +10,48 @@
 </head>
 
 <body>
+    <header>
+        <div class="dropdown">
+            <button class="dropbtn">More Info</button>
+            <div class="dropdown-content">
+                <a target="_blank" href="adoptabledogs.html">Adoptable Dogs</a>
+                <a target="_blank" href="https://www.rescueme.org/states">Rescues By State</a>
+                <a target="_blank" href="https://apps.apdt.com/eweb/DynamicPage.aspx?webcode=TrainerSearch">Training
+                    Near You</a>
+            </div>
+    </header>
     <h1>Adoption Application</h1>
     <h2>Please fill out to the best of your ability!</h2>
     <form>
-
-        <label for="dog" class="required" id="form-text">Name of Dog you are interested in:</label><br>
-        <input type="text" id="dog" name="dog"><br>
-
-        <label for="full-name" class="required" id="form-text">Your full name: (First, Middle, Last)</label><br>
-        <input type="text" id="full-name" name="full-name"><br>
-
-        <label for="DOB" class="required" id="form-text">Your Date of Birth: (mm/dd/yyy)</label><br>
-        <input type="text" id="DOB" name="DOB"><br>
-
-        <label for="address" class="required" id="form-text">Street Address:</label><br>
-        <input type="text" id="address" name="address" required><br>
-
-        <label for="city-state-zip" class="required" id="form-text">City, State, Zip:</label><br>
-        <input type="text" id="city-state-zip" name="city-state-zip" required><br>
-
-        <label for="phone" class="required" id="form-text">Best number to reach you:</label><br>
-        <input type="text" id="phone" name="phone" required><br>
-
-        <label for="email" id="form-text">Best e-mail to reach you:</label><br>
-        <input type="email" id="email" name="email"><br>
-
-        <label for="employer" class="required" id="form-text">Employer Name:</label><br>
-        <input type="text" id="employer" name="employer"><br>
-        <label for="employer" class="required" id="form-text"> Employer Phone:</label><br>
-        <input type="text" id="employer" name="emloyer"><br>
-        <label for="employer" id="form-text">Employer Address:</label><br>
-        <input type="text" id="employer" name="employer"><br>
-
         <div class="input-group">
+            <label for="dog" class="required" id="form-text">Name of Dog you are interested in:</label><br>
+            <input type="text" id="dog" name="dog" size="50"><br>
+
+            <label for="full-name" class="required" id="form-text">Your full name: (First, Middle, Last)</label><br>
+            <input type="text" id="full-name" name="full-name" size="50"><br>
+
+            <label for="DOB" class="required" id="form-text">Your Date of Birth: (mm/dd/yyy)</label><br>
+            <input type="text" id="DOB" name="DOB" size="50"><br>
+
+            <label for="address" class="required" id="form-text">Street Address:</label><br>
+            <input type="text" id="address" name="address" required size="50"><br>
+
+            <label for="city-state-zip" class="required" id="form-text">City, State, Zip:</label><br>
+            <input type="text" id="city-state-zip" name="city-state-zip" required size="50"><br>
+
+            <label for="phone" class="required" id="form-text">Best number to reach you:</label><br>
+            <input type="text" id="phone" name="phone" required size="50"><br>
+
+            <label for="email" id="form-text">Best e-mail to reach you:</label><br>
+            <input type="email" id="email" name="email" size="50"><br>
+
+            <label for="employer" class="required" id="form-text">Employer Name:</label><br>
+            <input type="text" id="employer" name="employer" size="50"><br>
+            <label for="employer" class="required" id="form-text"> Employer Phone:</label><br>
+            <input type="text" id="employer" name="emloyer" size="50"><br>
+            <label for="employer" id="form-text">Employer Address:</label><br>
+            <input type="text" id="employer" name="employer" size="50"><br>
+
             <label for="status" class="required" id="form-text">Are you Full-Time or Part-Time?</label><br>
             <input type="radio" id="status" name="status" value="Full-Time">
             <label for="status">Full-Time</label><br>
@@ -51,8 +60,9 @@
         </div>
 
         <h2>Household Information</h2>
+
         <div class="input-group">
-            <label for="agreement" id="form-text" id="form-text">Are all members in agreement with this
+            <label for="agreement" id="form-text">Are all members in agreement with this
                 adoption?</label><br>
             <input type="radio" id="agreement" name="agreement" value="YES">
             <label for="agreement">YES</label><br>
@@ -60,56 +70,73 @@
             <label for="agreement">NO</label><br>
             <input type="radio" id="agreement" name="agreement" value="NOT-SURE">
             <label for="agreement">NOT SURE</label><br>
+
+            <label for="caregiver" class="requried" id="form-text">Who will be the primary
+                caregiver?</label><br>
+            <input type="text" id="caregiver" name="caregiver" size="50"><br>
+
+            <label for="living" class="required" id="form-text">Do you live in a:</label><br>
+
+            <input type="radio" id="living" name="living" value="House">
+            <label for="house">House</label><br>
+
+            <input type="radio" id="living" name="living" value="apartment">
+            <label for="apartment">Apartment</label><br>
+
+            <input type="radio" id="living" name="living" value="mobile">
+            <label for="mobile">Mobile Home</label><br>
+
+            <input type="radio" id="living" name="living" value="condo">
+            <label for="condo">Condo</label><br>
+
+            <label for="own-rent" class="required" id="form-text">Do you own or rent?</label><br>
+
+            <input type="radio" id="own-rent" name="own-rent" value="own" required>
+            <label for="own">Own</label><br>
+
+            <input type="radio" id="own-rent" name="own-rent" value="rent" required>
+            <label for="rent">Rent</label><br>
+
+            <label for="landlord" id="form-text">If rent, provide name and number of landlord</label><br>
+            <input type="text" id="landlord" name="landlord" size="50"><br>
+
+            <label for="allowed" id="form-text" class="required">Does your landlord allow dogs?</label><br>
+            <input type="radio" id="allowed" name="allowed" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="allowed" name="allowed" value="no">
+            <label for="no">No</label><br>
+
+            <label for="restrictions" id="form-text" class="required">Are there any restrictions from your
+                landlord or
+                subdivision?</label><br>
+
+            <input type="checkbox" id="restrictions" name="restrictions" value="number">
+            <label for="number">Number of pets</label><br>
+
+            <input type="checkbox" id="restrictions" name="restrictions" value="size-weight">
+            <label for="size-weight">Size or weight restrictions</label><br>
+
+            <input type="checkbox" id="restrictions" name="restrictions" value="breed">
+            <label for="breed">Breed restrictions</label><br>
+
+            <input type="checkbox" id="restrictions" name="restrictions" value="none">
+            <label for="none">None</label><br>
+
+            <label for="yard" id="form-text">Do you have a fully fenced yard?</label><br>
+            <input type="radio" id="yard" name="yard" value="yes">
+            <label for="yard-yes">Yes</label><br>
+
+            <input type="radio" id="yard" name="yard" value="no">
+            <label for="yard-no">No</label><br>
+
+            <label for="children" id="form-text">How many children are in your household?</label><br>
+            <input type="number" min="0"><br>
+
+            <label for="allergies" id="form-text">Does anyone have any allergies or asthma?</label><br>
+            <input type="radio" id="allergies" name="allergies" value="yes">Yes</input><br>
+            <input type="radio" id="allergies" name="allergies" value="no">No</input>
+
         </div>
-
-        <label for="caregiver" class="requried" id="form-text">Who will be the primary caregiver?</label><br>
-        <input type="text" id="caregiver" name="caregiver"><br>
-
-        <label for="living" class="required" id="form-text">Do you live in a:</label><br>
-
-        <input type="radio" id="living" name="living" value="House">
-        <label for="house">House</label><br>
-
-        <input type="radio" id="living" name="living" value="apartment">
-        <label for="apartment">Apartment</label><br>
-
-        <input type="radio" id="living" name="living" value="mobile">
-        <label for="mobile">Mobile Home</label><br>
-
-        <input type="radio" id="living" name="living" value="condo">
-        <label for="condo">Condo</label><br>
-
-        <label for="own-rent" class="required" id="form-text">Do you own or rent?</label><br>
-
-        <input type="radio" id="own-rent" name="own-rent" value="own" required>
-        <label for="own">Own</label><br>
-
-        <input type="radio" id="own-rent" name="own-rent" value="rent" required>
-        <label for="rent">Rent</label><br>
-
-        <label for="landlord" id="form-text">If rent, provide name and number of landlord</label><br>
-        <input type="text" id="landlord" name="landlord"><br>
-
-        <label for="allowed" id="form-text">Does your landlord allow dogs?</label><br>
-        <input type="radio" id="allowed" name="allowed" value="Yes">
-        <label for="yes">Yes</label><br>
-        <input type="radio" id="allowed" name="allowed" value="no">
-        <label for="no">No</label><br>
-
-        <label for="restrictions" id="form-text" class="required">Are there any restrictions from your landlord or
-            subdivision?</label><br>
-
-        <input type="checkbox" id="restrictions" name="restrictions" value="number">
-        <label for="number">Number of pets</label><br>
-
-        <input type="checkbox" id="restrictions" name="restrictions" value="size-weight">
-        <label for="size-weight">Size or weight restrictions</label><br>
-
-        <input type="checkbox" id="restrictions" name="restrictions" value="breed">
-        <label for="breed">Breed restrictions</label><br>
-
-        <input type="checkbox" id="restrictions" name="restrictions" value="none">
-        <label for="none">none</label><br>
 
 
     </form>
