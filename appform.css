@@ -94,6 +94,22 @@ input {
     background-color: darkolivegreen;
 }
 
+@media screen and (min-width: 260px) and (max-width: 700px) {
+    header {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: none;
+    }
+
+}
+
 footer {
     text-align: center;
     color: blanchedalmond;

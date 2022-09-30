@@ -99,10 +99,10 @@ a:visited {
     border: 3px ridge darkgoldenrod;
     color: blanchedalmond;
     text-shadow: 2px 1px black;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* Dropdown Button */
@@ -153,11 +153,50 @@ a:visited {
     background-color: darkolivegreen;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 280px) and (max-width: 700px) {
     .title img {
         width: 200px;
     }
+
+    .dog-about-info {
+        text-align: center;
+        color: blanchedalmond;
+        text-shadow: 2px 1px black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .about-info {
+        text-align: center;
+        border: 3px ridge darkgoldenrod;
+        margin: auto;
+        border-radius: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .pros_cons {
+        text-align: center;
+        border: 3px ridge darkgoldenrod;
+        margin: auto;
+        border-radius: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    h3.blank_form {
+        font-size: 13px;
+    }
 }
+
+@media screen and (min-width: 700px) {
+    .title img {
+        width: 600px;
+    }
+}
+
 
 footer {
     text-align: center;
