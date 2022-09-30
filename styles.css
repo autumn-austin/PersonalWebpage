@@ -153,6 +153,12 @@ a:visited {
     background-color: darkolivegreen;
 }
 
+@media screen and (min-width: 400px) {
+    .title img {
+        width: 200px;
+    }
+}
+
 footer {
     text-align: center;
     color: blanchedalmond;
